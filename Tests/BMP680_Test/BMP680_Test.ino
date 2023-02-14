@@ -30,7 +30,7 @@ void loop() {
     Serial.println("Failed to perform reading :(");
     return;
   }
-  
+
   Serial.print("Temperature = ");
   Serial.print(bme.temperature);
   Serial.println(" *C");
